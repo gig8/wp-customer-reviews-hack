@@ -1,0 +1,286 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WP Customer Reviews"
+msgstr ""
+
+#. Short description.
+msgid "Allows your visitors to leave business / product reviews. Testimonials are in Microdata / Microformat and may display star ratings in search results."
+msgstr ""
+
+#. Screenshot description.
+msgid "Front-end display"
+msgstr ""
+
+#. Screenshot description.
+msgid "Submit a review (1)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Submit a review (2)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Admin moderation (1)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Admin moderation (2)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Plugin settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Submit form settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Display settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Enabling a page for Business reviews"
+msgstr ""
+
+#. Screenshot description.
+msgid "Enabling a page for Product reviews"
+msgstr ""
+
+#. Found in description list item.
+msgid "WP Multisite and Multiuser (WPMU / WPMS / Wordpress MU) compatible."
+msgstr ""
+
+#. Found in description list item.
+msgid "All submissions are moderated, which means that YOU choose which reviews get shown."
+msgstr ""
+
+#. Found in description list item.
+msgid "Reviews are displayed to visitors in a friendly format, but search engines see the Schema.org microformat."
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple anti-spam measures to prevent automated spambots from submitting reviews."
+msgstr ""
+
+#. Found in description list item.
+msgid "Completely customizable, including which fields to ask for, require, and show."
+msgstr ""
+
+#. Found in description list item.
+msgid "Shortcodes available for inserting reviews and review form on any page or widget."
+msgstr ""
+
+#. Found in description list item.
+msgid "Works with caching plugins and custom themes."
+msgstr ""
+
+#. Found in description list item.
+msgid "Includes an external stylesheet so you can modify it to better fit your theme."
+msgstr ""
+
+#. Found in description list item.
+msgid "Reviews can be edited by admin for content and date."
+msgstr ""
+
+#. Found in description list item.
+msgid "Admin responses can be made and shown under each review."
+msgstr ""
+
+#. Found in description list item.
+msgid "Support for adding your own custom fields."
+msgstr ""
+
+#. Found in description list item.
+msgid "The plugin can be used on more than one page, and can be used on posts."
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports both <code>Business</code> and <code>Product</code> review types."
+msgstr ""
+
+#. Found in description list item.
+msgid "Shows aggregate reviews microformat."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fast and lightweight, even including the star rating image. This plugin will not slow down your blog."
+msgstr ""
+
+#. Found in description list item.
+msgid "Validates as valid XHTML 1.1 (W3C) and valid Microformats (Rich Snippets Testing Tool)."
+msgstr ""
+
+#. Found in description list item.
+msgid "And much more..."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There are many sites that are crawling for user-generated reviews now, including Google Places and Google Local Search. WP Customer Reviews allows you to setup a specific page on your blog to receive customer testimonials for your business/service OR to write reviews about a product."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Big News! Version 3 has been released.</strong> <a href=\"http://www.gowebsolutions.com/wp-customer-reviews/?from=wpcr3_directory_notice_1\" title=\"Click here for details\">Click here for details</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Almost every new feature that has been added was due to the generous support and suggestions of our users. If you have a suggestion or question, do not hesitate to ask in our forum."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "More information at: <a href=\"http://www.gowebsolutions.com/wp-customer-reviews/\"><strong>WP Customer Reviews</strong></a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload contents of compressed file (wp-customer-reviews) to the <code>/wp-content/plugins/</code> directory. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the <code>Plugins</code> menu in WordPress admin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Create a WordPress page to be used specifically for gathering reviews or testimonials."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go into settings for WP Customer Reviews and configure the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "11/15/2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] In some installations, ajax requests were still failing. We are reverting to using admin-ajax once again."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "11/12/2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] In some installations, a dynamic CSS file could not be written upon plugin activation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] In some installations, ajax requests to admin-ajax were failing. We are trying a new method."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] In some installations, the number of reviews displayed for \"Average Rating\" was inflated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Email notifications for new reviews were missing a timestamp in the subject line."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] When using [WPCR_SHOW POSTID=\"123\"] shortcode on the page ID 123, reviews would output twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] When a page had 0 reviews, the average rating would show 2.5 stars instead of 0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Feature] Added PAGINATE and PERPAGE as shortcode options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "10/19/2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] JavaScript will now work with older versions of jQuery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "10/18/2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Fixed post/page saving issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Fix for broken JavaScript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Shortcode copied/pasted itno WP visual editor should now work better"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Migrating from 2.x would sometimes duplicate imported reviews ( see \"Tools\" settings tab for fix )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Migrating from 2.x would sometimes skip importing reviews ( see \"Tools\" settings tab for fix )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] When paginating reviews on the front-end, \"reviewed on\" page links would sometimes be not linked"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Relaxed the human detection anti-spam rules a bit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Fixed \"failed the spambot check\" issue when WP back-end is SSL, but front-end is not"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Bugfix] Fixed some PHP error notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] \"Tools\" tab added to plugin settings. This will contain various methods for managing/fixing review data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] When adding reviews manually in WP admin, the WP post title now matches user-added reviews"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] You can now edit the WP post title of reviews"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "09/29/2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] Enabled for custom post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] Upgrading from 2.x should go smoother for some people"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "09/10/2015"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] Complete code cleanup and rewrite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] Complete overhaul of settings and management interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[Update] Updates to comply with WP plugin directory guidelines"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Bug Report / Feature Requests: <a href=\"https://competelab.fogbugz.com/default.asp?pg=pgPublicEdit\"><strong>Issue Tracker</strong></a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Community Support Forum: <a href=\"http://wordpress.org/tags/wp-customer-reviews?forum_id=10\"><strong>Community Support Forum</strong></a>"
+msgstr ""
