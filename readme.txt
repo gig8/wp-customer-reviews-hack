@@ -3,8 +3,8 @@ Contributors: bompus
 Donate link: http://www.gowebsolutions.com/wp-customer-reviews/
 Tags: business, google, hcard, schema.org, hproduct, hreview, microformat, microformats, mu, places, plugin, product, rating, ratings, rdfa, review, review box, review widget, reviews, seo, service, snippet, snippets, testimonial, testimonials, widget, wordpressmu, wpmu
 Requires at least: 3.0.0
-Tested up to: 4.4
-Stable tag: 3.0.7
+Tested up to: 4.5
+Stable tag: 3.1.2
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -64,6 +64,28 @@ More information at: [**WP Customer Reviews**](http://www.gowebsolutions.com/wp-
 
 == Changelog ==
 
+= 3.1.2 =
+* 04/21/2016
+* [Update] Made activation process simpler
+* [Update] Images losslessly compressed
+
+= 3.1.1 =
+* 04/19/2016
+* [Bugfix] Fixed possible issues with WordPress 3.6
+
+= 3.1.0 =
+* 04/09/2016
+* [Bugfix] Fixed possible issue with PHP 7.0
+
+= 3.0.9 =
+* 04/05/2016
+* [Security] Prevented CSRF and XSS in admin tools.
+
+= 3.0.8 =
+* 01/04/2016
+* [Bugfix] Fixed the appearance of a security hole with admin tools. Malicious action was not possible.
+* [Bugfix] Fixed deprecation warning with wpseo_pre_analysis_post_content (Yoast SEO).
+
 = 3.0.7 =
 * 11/15/2015
 * [Bugfix] In some installations, ajax requests were still failing. We are reverting to using admin-ajax once again.
@@ -113,9 +135,6 @@ More information at: [**WP Customer Reviews**](http://www.gowebsolutions.com/wp-
 * 09/10/2015
 * [Update] Complete code cleanup and rewrite
 * [Update] Complete overhaul of settings and management interface
-
-= 2.4.8 =
-* [Update] Updates to comply with WP plugin directory guidelines
 
 == Upgrade Notice ==
 

@@ -3,13 +3,13 @@
  * Plugin Name: WP Customer Reviews
  * Plugin URI: http://www.gowebsolutions.com/wp-customer-reviews/
  * Description: Allows your visitors to leave business / product reviews. Testimonials are in Microdata / Microformat and may display star ratings in search results.
- * Version: 3.0.7
+ * Version: 3.1.2
  * Author: Go Web Solutions
  * Author URI: http://www.gowebsolutions.com/
  * Text Domain: wp-customer-reviews
  * License: MIT
  *
- * Copyright (c) 2015 Go Web Solutions
+ * Copyright (c) 2016 Go Web Solutions
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -641,9 +641,11 @@ class WPCustomerReviews3 {
 		return "data-wpcr3-content=\"{$postid}\"";
 	}
 	
+	/*
 	function do_the_content_wpseo($original_content) {
 		return $this->do_the_content($original_content, 'wpseo');
 	}
+	*/
 
     function do_the_content($original_content, $fix = "wp") {
         global $post;
@@ -923,7 +925,7 @@ class WPCustomerReviews3 {
 		
 		// "Wordpress SEO - Yoast" hijacks the_content and breaks all kinds of plugins
 		// luckily they provide a filter to fix it
-		add_filter('wpseo_pre_analysis_post_content', array(&$this, 'do_the_content_wpseo'), 15);
+		// add_filter('wpseo_pre_analysis_post_content', array(&$this, 'do_the_content_wpseo'), 15);
 		
 		// $this->print_filters_for('the_content'); exit();
 		

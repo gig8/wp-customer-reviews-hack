@@ -1,3 +1,25 @@
+= 3.1.2 =
+* 04/21/2016
+* [Update] Made activation process simpler
+* [Update] Images losslessly compressed
+
+= 3.1.1 =
+* 04/19/2016
+* [Bugfix] Fixed possible issues with WordPress 3.6
+
+= 3.1.0 =
+* 04/09/2016
+* [Bugfix] Fixed possible issue with PHP 7.0
+
+= 3.0.9 =
+* 04/05/2016
+* [Security] Prevented CSRF and XSS in admin tools.
+
+= 3.0.8 =
+* 01/04/2016
+* [Bugfix] Fixed the appearance of a security hole with admin tools. Malicious action was not possible.
+* [Bugfix] Fixed deprecation warning with wpseo_pre_analysis_post_content (Yoast SEO).
+
 = 3.0.7 =
 * 11/15/2015
 * [Bugfix] In some installations, ajax requests were still failing. We are reverting to using admin-ajax once again.
@@ -49,16 +71,3 @@
 * [Bugfix] Fixed an awful incompatibility issue.
 * [Bugfix] "Snippet" and "More" were not working.
 * [Update] Removed some unnecessary JS from being output on pages
-
-= 3.0.0 =
-* 06/04/2015 Beta 2
-* [Bugfix] In some cases, importing page settings and reviews from 2.x did not work
-* [Bugfix] Incompatibility issue with "Wordpress SEO" plugin.
-* [Bugfix] Incompatibility issue with several plugins / themes.
-* [Bugfix] Pagination of reviews on the front-end was broken if the form was hidden
-* [Bugfix] Incompatibility issue with PHP 5.2 and 5.3
-
-= 3.0.0 =
-* 05/24/2015 Beta 1
-* [Update] Complete code cleanup and rewrite
-* [Update] Complete overhaul of settings and management interface
