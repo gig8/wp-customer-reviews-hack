@@ -3,8 +3,8 @@ Contributors: bompus
 Donate link: http://www.gowebsolutions.com/wp-customer-reviews/
 Tags: business, google, hcard, schema.org, hproduct, hreview, microformat, microformats, mu, places, plugin, product, rating, ratings, rdfa, review, review box, review widget, reviews, seo, service, snippet, snippets, testimonial, testimonials, widget, wordpressmu, wpmu
 Requires at least: 3.0.0
-Tested up to: 4.5
-Stable tag: 3.1.2
+Tested up to: 4.8
+Stable tag: 3.1.3
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -63,6 +63,11 @@ More information at: [**WP Customer Reviews**](http://www.gowebsolutions.com/wp-
 * Community Support Forum: [**Community Support Forum**](http://wordpress.org/tags/wp-customer-reviews?forum_id=10)
 
 == Changelog ==
+
+= 3.1.3 =
+* 05/31/2017
+* [Bugfix] css typo bug fix
+* [Update] compatible with WP 4.8
 
 = 3.1.2 =
 * 04/21/2016

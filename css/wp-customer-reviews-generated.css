@@ -37,7 +37,7 @@ div.wpcr3_review div.wpcr3_review_customs { margin-bottom:5px; }
 div.wpcr3_review div.wpcr3_review_custom { font-size:12px; float:left; margin-right:60px; }
 
 .wpcr3_respond_2 { position:relative; }
-.wpcr3_respond_2 label { display:inline-block; !important; }
+.wpcr3_respond_2 label { display:inline-block !important; }
 .wpcr3_respond_2 .fconfirm2 { width:auto !important; }
 
 .wpcr3_respond_2 input { }
