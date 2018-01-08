@@ -1019,7 +1019,7 @@ class WPCustomerReviewsAdmin3 extends WPCustomerReviews3
 				<div class="inside">
 					<p>
 						<?php if ($this->pro) : ?>
-							Version: <strong><?php echo $this->plugin_version; ?> <span style="color:#00f;">PRO</span></strong>
+							Version: <strong><?php echo $this->plugin_version; ?> PRO</strong>
 						<?php else: ?>
 							Version: <strong><?php echo $this->plugin_version; ?> Lite <!--(<a class="boldBlue" target="_blank" href="<?php echo $this->prolink; ?>?from=about_upgrade">Upgrade to Pro</a>)--> </strong>
 						<?php endif; ?>
@@ -1030,10 +1030,10 @@ class WPCustomerReviewsAdmin3 extends WPCustomerReviews3
 				</div>
 				<div class="inside bgblue">
 					Plugin Homepage: <a target="_blank" href="<?php echo $this->url; ?>?from=about"><?php echo $this->url; ?></a><br /><br />
-					Bug Report / Feature Request: <a target="_blank" href="https://competelab.fogbugz.com/default.asp?pg=pgPublicEdit">https://competelab.fogbugz.com/</a><br /><br />
+					Bug Report / Feature Request: <a target="_blank" href="mailto:wpcr@wpcr.freshdesk.com">wpcr@wpcr.freshdesk.com</a><br /><br />
 					Community Support Forum: <a target="_blank" href="<?php echo $this->support_link; ?>"><?php echo $this->support_link; ?></a><br /><br />
 					<div style="color:#BE5409;font-weight:bold;">
-						If you like this plugin, please <a target="_blank" href="http://wordpress.org/support/view/plugin-reviews/wp-customer-reviews?rate=5#postform">login and rate it 5 stars here</a>
+						If you like this plugin, please <a target="_blank" href="https://wordpress.org/support/plugin/wp-customer-reviews/reviews/">login and rate it 5 stars here</a>
 						<?php if (!$this->pro) : ?>
 							<!-- and consider purchasing the Pro version. -->
 						<?php endif; ?>
@@ -1256,9 +1256,9 @@ class WPCustomerReviewsAdmin3 extends WPCustomerReviews3
 		
 		<div class="wrap <?php echo $this->prefix; ?>_myplugin_options">
 			<?php if ($this->pro) : ?>
-				<h2>WP Customer Reviews <span style="color:#00f;">Pro</span> - Settings</h2>
+				<h2>WP Customer Reviews PRO - Settings</h2>
 			<?php else : ?>
-				<h2>WP Customer Reviews <span style="color:#00f;">Lite</span> - Settings <!--<div class="need_pro"><a class="boldBlue" target="_blank" href="<?php echo $this->prolink; ?>?from=h2_upgrade">Upgrade to Pro</a></div>--> </h2>
+				<h2>WP Customer Reviews Lite - Settings <!--<div class="need_pro"><a class="boldBlue" target="_blank" href="<?php echo $this->prolink; ?>?from=h2_upgrade">Upgrade to Pro</a></div>--> </h2>
 			<?php endif; ?>
 			
 			<h2 class="nav-tab-wrapper">
