@@ -233,19 +233,20 @@ class WPCustomerReviews3 {
 		
 		$query = $wpdb->prepare("
 			SELECT 
-			COUNT(*) AS aggregate_count, AVG(tmp1.rating) AS aggregate_rating
+			COUNT(*) AS aggregate_count, AVG(tmp2.rating) AS aggregate_rating
 			FROM 
             (
             	SELECT pm4.meta_value AS rating
-                FROM {$wpdb->prefix}posts p1
-                INNER JOIN {$wpdb->prefix}postmeta pm1 ON pm1.meta_key = 'wpcr3_enable' AND pm1.meta_value = '1' AND pm1.post_id = p1.id
-                INNER JOIN {$wpdb->prefix}postmeta pm2 ON pm2.meta_key = 'wpcr3_review_post' AND pm2.meta_value = p1.id 
-                INNER JOIN {$wpdb->prefix}posts p2 ON p2.id = pm2.post_id AND p2.post_status = 'publish' AND p2.post_type = 'wpcr3_review'
+                FROM (
+                        SELECT DISTINCT pm2.post_id
+                        FROM {$wpdb->prefix}posts p1
+                        INNER JOIN {$wpdb->prefix}postmeta pm1 ON pm1.meta_key = 'wpcr3_enable' AND pm1.meta_value = '1' AND pm1.post_id = p1.id
+                        INNER JOIN {$wpdb->prefix}postmeta pm2 ON pm2.meta_key = 'wpcr3_review_post' AND pm2.meta_value = p1.id
+                        WHERE p1.id = %d) tmp1
+                INNER JOIN {$wpdb->prefix}posts p2 ON p2.id = tmp1.post_id AND p2.post_status = 'publish' AND p2.post_type = 'wpcr3_review'
                 INNER JOIN {$wpdb->prefix}postmeta pm4 ON pm4.post_id = p2.id AND pm4.meta_key = 'wpcr3_review_rating' AND pm4.meta_value IS NOT NULL AND pm4.meta_value != '0'
-                WHERE
-                p1.id = %d
                 GROUP BY p2.id
-            ) tmp1
+            ) tmp2
 		", intval($postid));
 		
 		$results = $wpdb->get_results($query);
